@@ -56,7 +56,7 @@ about:
   doc_url: https://docs.featuretools.com
   dev_url: https://github.com/Featuretools/featuretools/
   home: https://featuretools.com
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: a framework for automated feature engineering
