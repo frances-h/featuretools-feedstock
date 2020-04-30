@@ -1,12 +1,12 @@
-{% set version = "0.13.4" %}
+{% set version = "0.14.0.dev0" %}
 
 package:
   name: featuretools
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/f/featuretools/featuretools-{{ version }}.tar.gz
-  sha256: 893ffa34b234212c980040bc16557baa49f8fd1ac7ae1f5757be13ff56966473
+  url: https://test-files.pythonhosted.org/packages/03/3b/11457b1660a11d965c4bd55b56bf8129dc53c53342749618f2f1b6e7f474/featuretools-0.14.0.dev0.tar.gz
+  sha256: d54a62116a39e9466386158b2956d085fedb1d35db8286b42f7fe6835a62455b
 
 build:
   entry_points:
@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.5.*
+    - python >=3.6.*
   run:
     - click >=7.0.0
     - cloudpickle >=0.4.0
@@ -27,7 +27,7 @@ requirements:
     - numpy >=1.13.3
     - pandas >=0.24.1
     - psutil >=5.4.8
-    - python >=3.5.*
+    - python >=3.6.*
     - pyyaml >=3.12
     - scipy >=0.13.3
     - tqdm >=4.32.0
